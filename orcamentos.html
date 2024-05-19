@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Orçamentos</title>
+        <link rel="stylesheet" href="reset.css" />
+        <link rel="stylesheet" href="orcamentos.css" />
+        <link rel="shortcut icon" href="img/logo.png" type="image/x-icon" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap"
+            rel="stylesheet"
+        />
+        <script src="orcamentos.js" defer></script>
+    </head>
+    <body>
+        <header>
+            <a href="index.html">
+                <ul>
+                    <li class="img-container">
+                        <img src="img/logo.png" alt="" />
+                    </li>
+                    <li>
+                        <h2 id="nome-empresa">
+                            Bot<span style="color: #07daff">Brains</span>
+                        </h2>
+                    </li>
+                </ul>
+            </a>
+            <ul>
+                <li><a href="index.html" class="link">Inicio</a></li>
+                <li>
+                    <a
+                        href="orcamentos.html"
+                        class="link"
+                        style="color: #07daff"
+                        >Orçamentos</a
+                    >
+                </li>
+                <li><a href="http://" class="link">Depoimentos</a></li>
+                <li>
+                    <a href="login.html" class="login"
+                        >Login <img src="img/login.png" alt=""
+                    /></a>
+                </li>
+            </ul>
+        </header>
+        <main>
+            <div class="container-titulo">
+                <h1 style="font-size: 40px">
+                    Precisando de um
+                    <span class="palavra-gradiente">sistema</span> ou
+                    <span class="palavra-gradiente">automação/bot?</span>
+                </h1>
+                <p style="text-align: center">
+                    Temos uma comunidade de desenvolvedores(as) que se
+                    especializam na criação de automações e sistemas. Todo
+                    orçamento que for enviado abaixo será enviado para minha
+                    comunidade exclusiva e você receberá vários orçamentos,
+                    podendo escolher o que melhor te atender, de acordo com suas
+                    preferencias.
+                </p>
+            </div>
+            <div class="container">
+                <aside>
+                    <h2 style="margin-bottom: 15px">
+                        Como solicitar um orçamento?
+                    </h2>
+                    <ul>
+                        <h3>
+                            ✔️Precisa de um bot (robô) que faça as tarefas para
+                            você?
+                        </h3>
+                        <li>
+                            Somos humanos e falhos, escolha nossos serviços para
+                            bots fazerem o serviço sujo!
+                        </li>
+                        <li>
+                            Descreva em detalhes o que precisa ser automatizado
+                            (quais passos manuais gostaria de automatizar).
+                        </li>
+                        <li>
+                            Mencione inspirações, referências, sites e quais
+                            passos/processos gostaria de automatizar.
+                        </li>
+                    </ul>
+
+                    <ul>
+                        <h3>
+                            ✔️Precisa de um sistema que pode aumentar sua
+                            produtividade em até 50%?
+                        </h3>
+                        <li>
+                            Descreva a visão ou quais funcionalidades imagina
+                            serem necessárias para melhor atender sua própria
+                            necessidade:
+                        </li>
+                        <li>
+                            Sistemas inteligentes e confortáveis, qualquer
+                            pessoa será capaz de acompanhar sua aplicação
+                            funcionando.
+                        </li>
+                        <li>
+                            Nos informe seu sistema para Fazer X coisas, Y
+                            programas, Z tarefas. Não há limites. Somente
+                            Tecnologia.
+                        </li>
+                    </ul>
+                </aside>
+                <form action="" method="post">
+                    <div class="card">
+                        <label for="nome">Nome</label>
+                        <input
+                            type="text"
+                            name="nome"
+                            id="nome"
+                            placeholder="Digite seu nome:"
+                            required
+                        />
+                    </div>
+
+                    <div class="card">
+                        <label for="telefone">Telefone</label>
+                        <input
+                            type="tel"
+                            name="telefone"
+                            id="telefone"
+                            placeholder="Digite seu número com DDD:"
+                            required
+                        />
+                    </div>
+
+                    <div class="card linha-inteira">
+                        <label for="email">E-mail</label>
+                        <input
+                            type="email"
+                            name="email"
+                            id="email"
+                            placeholder="Insira seu melhor e-mail:"
+                            required
+                        />
+                    </div>
+
+                    <div class="card linha-inteira">
+                        <label for="mensagem">Como podemos te ajudar?</label>
+                        <textarea
+                            id="mensagem"
+                            name="mensagem"
+                            rows="4"
+                            cols="50"
+                            placeholder="Deixe sua mensagem aqui:"
+                        ></textarea
+                        ><br />
+                        <p class="descricao-mensagem">
+                            Descreva exatamente o que está buscando. Quanto mais
+                            detalhes, mais rápido conseguimos te dar um retorno.
+                            Descrições vagas demais irão atrasar muito o
+                            processo de te entregar uma solução.
+                        </p>
+                    </div>
+
+                    <input
+                        class="botao-enviar linha-inteira"
+                        type="submit"
+                        value="SOLICITAR ORÇAMENTO"
+                        disabled
+                    />
+                </form>
+            </div>
+        </main>
+        <footer>
+            <ul style="margin-top: 40px">
+                <li>
+                    <a href="http://"><img src="img/instagram.png" alt="" /></a>
+                </li>
+                <li>
+                    <a href="http://"><img src="img/facebook.png" alt="" /></a>
+                </li>
+                <li>
+                    <a href="http://"><img src="img/whatsapp.png" alt="" /></a>
+                </li>
+            </ul>
+            <p>Todos os direitos reservados</p>
+            <p style="font-weight: bold">
+                Termos de privacidade – Todos os direitos reservados – Termos de
+                Uso
+            </p>
+        </footer>
+    </body>
+</html>
