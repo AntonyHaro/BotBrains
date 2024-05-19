@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Login</title>
+        <link rel="stylesheet" href="reset.css" />
+        <link rel="stylesheet" href="login.css" />
+        <script src="login.js" defer></script>
+        <link rel="shortcut icon" href="img/logo.png" type="image/x-icon" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <div id="container">
+            <a href="index.html" class="botao-voltar"
+                ><img src="img/voltar.png" alt=""
+            /></a>
+
+            <div class="logar" id="logar">
+                <ul>
+                    <li class="img-container">
+                        <img src="img/logo.png" alt="" />
+                    </li>
+                    <li>
+                        <h2 id="nome-empresa">
+                            Bot<span style="color: #07daff">Brains</span>
+                        </h2>
+                    </li>
+                </ul>
+                <h1>Já tem uma conta?</h1>
+                <p>
+                    Acesse sua conta
+                    <span style="font-weight: bold">agora mesmo</span>.
+                </p>
+                <button onclick="mudar()">Entrar</button>
+            </div>
+
+            <div class="registrar" id="registrar">
+                <h1><span class="palavra-gradiente">Crie</span> sua conta</h1>
+                <p>
+                    Preencha os dados e fique por dentro da
+                    <span style="font-weight: bold">BotBrains</span>
+                </p>
+                <form action="#" method="post">
+                    <div class="input-container">
+                        <div class="input-case">
+                            <img src="img/adicionar-usuario.png" alt="" />
+                            <input
+                                type="text"
+                                name="nome"
+                                id="nome"
+                                placeholder="Nome:"
+                            />
+                        </div>
+
+                        <div class="input-case">
+                            <img src="img/telefone.png" alt="" />
+                            <input
+                                type="tel"
+                                name="telefone"
+                                id="telefone"
+                                placeholder="Telefone:"
+                            />
+                        </div>
+
+                        <div class="input-case">
+                            <img src="img/o-email.png" alt="" />
+                            <input
+                                type="email"
+                                name="email"
+                                id="email"
+                                placeholder="Email:"
+                            />
+                        </div>
+
+                        <div class="input-case">
+                            <img src="img/seguranca.png" alt="" />
+                            <input
+                                type="password"
+                                name="senha"
+                                id="senha"
+                                placeholder="Senha:"
+                            />
+                        </div>
+                    </div>
+                    <input type="submit" value="Criar!"/>
+                </form>
+            </div>
+
+
+        </div>
+    </body>
+</html>
